@@ -1,22 +1,20 @@
 import 'dart:convert';
 
-import 'package:dart_basic_aston/dart_basic_aston.dart' as dart_basic_aston;
-
 void main(List<String> arguments) {
   print('Hello world PT Aston');
   String name = 'Contoh variable';
   print('length is: ${name.length + 20 - 2 * 5}');
   print('length is: ${name}');
-  if(name.isNotEmpty){
+  if (name.isNotEmpty) {
     print('name is not empty');
   }
 
-  if(name.isNotEmpty){
-      if(name == 'saya'){
-        name.contains('variable');
-        name.split(':');
-        name.toUpperCase();
-      }
+  if (name.isNotEmpty) {
+    if (name == 'saya') {
+      name.contains('variable');
+      name.split(':');
+      name.toUpperCase();
+    }
   }
   String firstName = 'Saiful';
   String lastName = 'Bahri';
